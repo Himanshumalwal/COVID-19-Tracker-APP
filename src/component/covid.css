@@ -1,0 +1,60 @@
+
+*{
+    font-style: italic;
+    font-weight: 600;
+}
+body{
+    background-color: rgb(33, 185, 240);
+}
+
+h1,h2{
+    font-style: normal;
+    text-align: center;
+}
+
+h1{
+    transition: 0s;
+    transform: scale(1.1);
+
+}
+
+
+
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+    
+}
+
+
+.card{
+    border: 2px solid black;
+         background-color:rgb(206, 52, 233);
+     width: calc(75%/3);
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    transition: 0.3s;
+
+}
+
+.card:hover{
+    transform:scale(1.1);
+} 
+
+.card__name{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card__name span {
+    font-size: 15px;
+}
+
+.card__total {
+    font-size: 200%;
+    font-weight: bold;
+
+}
